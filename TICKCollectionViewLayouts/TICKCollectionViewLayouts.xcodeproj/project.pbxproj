@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		4F0479FF1DA00EDA00266CB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0479FE1DA00EDA00266CB0 /* main.m */; };
 		4F047A021DA00EDA00266CB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F047A011DA00EDA00266CB0 /* AppDelegate.m */; };
-		4F047A051DA00EDA00266CB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F047A041DA00EDA00266CB0 /* ViewController.m */; };
 		4F047A081DA00EDA00266CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F047A061DA00EDA00266CB0 /* Main.storyboard */; };
 		4F047A0A1DA00EDB00266CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F047A091DA00EDA00266CB0 /* Assets.xcassets */; };
 		4F047A0D1DA00EDB00266CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F047A0B1DA00EDB00266CB0 /* LaunchScreen.storyboard */; };
+		4FF584561DA09AAD007A2DAE /* TICKCollectionViewPagedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF584551DA09AAD007A2DAE /* TICKCollectionViewPagedLayout.m */; };
+		4FF5845C1DA0A5C0007A2DAE /* DemoPagedLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5845B1DA0A5C0007A2DAE /* DemoPagedLayoutVC.m */; };
+		4FF584631DA0D6CA007A2DAE /* DemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF584611DA0D6CA007A2DAE /* DemoCollectionViewCell.m */; };
+		4FF584641DA0D6CA007A2DAE /* DemoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FF584621DA0D6CA007A2DAE /* DemoCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		4F0479FE1DA00EDA00266CB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F047A001DA00EDA00266CB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F047A011DA00EDA00266CB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F047A031DA00EDA00266CB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F047A041DA00EDA00266CB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4F047A071DA00EDA00266CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F047A091DA00EDA00266CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F047A0C1DA00EDB00266CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F047A0E1DA00EDB00266CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF584541DA09AAD007A2DAE /* TICKCollectionViewPagedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TICKCollectionViewPagedLayout.h; sourceTree = "<group>"; };
+		4FF584551DA09AAD007A2DAE /* TICKCollectionViewPagedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TICKCollectionViewPagedLayout.m; sourceTree = "<group>"; };
+		4FF5845A1DA0A5C0007A2DAE /* DemoPagedLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoPagedLayoutVC.h; sourceTree = "<group>"; };
+		4FF5845B1DA0A5C0007A2DAE /* DemoPagedLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoPagedLayoutVC.m; sourceTree = "<group>"; };
+		4FF584601DA0D6CA007A2DAE /* DemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewCell.h; sourceTree = "<group>"; };
+		4FF584611DA0D6CA007A2DAE /* DemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewCell.m; sourceTree = "<group>"; };
+		4FF584621DA0D6CA007A2DAE /* DemoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +66,19 @@
 		4F0479FC1DA00EDA00266CB0 /* TICKCollectionViewLayouts */ = {
 			isa = PBXGroup;
 			children = (
+				4FF584531DA09A8B007A2DAE /* TICKCollectionViewPagedLayout */,
 				4F047A001DA00EDA00266CB0 /* AppDelegate.h */,
 				4F047A011DA00EDA00266CB0 /* AppDelegate.m */,
-				4F047A031DA00EDA00266CB0 /* ViewController.h */,
-				4F047A041DA00EDA00266CB0 /* ViewController.m */,
 				4F047A061DA00EDA00266CB0 /* Main.storyboard */,
 				4F047A091DA00EDA00266CB0 /* Assets.xcassets */,
 				4F047A0B1DA00EDB00266CB0 /* LaunchScreen.storyboard */,
 				4F047A0E1DA00EDB00266CB0 /* Info.plist */,
 				4F0479FD1DA00EDA00266CB0 /* Supporting Files */,
+				4FF5845A1DA0A5C0007A2DAE /* DemoPagedLayoutVC.h */,
+				4FF5845B1DA0A5C0007A2DAE /* DemoPagedLayoutVC.m */,
+				4FF584601DA0D6CA007A2DAE /* DemoCollectionViewCell.h */,
+				4FF584611DA0D6CA007A2DAE /* DemoCollectionViewCell.m */,
+				4FF584621DA0D6CA007A2DAE /* DemoCollectionViewCell.xib */,
 			);
 			path = TICKCollectionViewLayouts;
 			sourceTree = "<group>";
@@ -77,6 +89,15 @@
 				4F0479FE1DA00EDA00266CB0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FF584531DA09A8B007A2DAE /* TICKCollectionViewPagedLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4FF584541DA09AAD007A2DAE /* TICKCollectionViewPagedLayout.h */,
+				4FF584551DA09AAD007A2DAE /* TICKCollectionViewPagedLayout.m */,
+			);
+			path = TICKCollectionViewPagedLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +161,7 @@
 				4F047A0D1DA00EDB00266CB0 /* LaunchScreen.storyboard in Resources */,
 				4F047A0A1DA00EDB00266CB0 /* Assets.xcassets in Resources */,
 				4F047A081DA00EDA00266CB0 /* Main.storyboard in Resources */,
+				4FF584641DA0D6CA007A2DAE /* DemoCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F047A051DA00EDA00266CB0 /* ViewController.m in Sources */,
 				4F047A021DA00EDA00266CB0 /* AppDelegate.m in Sources */,
 				4F0479FF1DA00EDA00266CB0 /* main.m in Sources */,
+				4FF584561DA09AAD007A2DAE /* TICKCollectionViewPagedLayout.m in Sources */,
+				4FF584631DA0D6CA007A2DAE /* DemoCollectionViewCell.m in Sources */,
+				4FF5845C1DA0A5C0007A2DAE /* DemoPagedLayoutVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +333,7 @@
 				4F047A131DA00EDB00266CB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

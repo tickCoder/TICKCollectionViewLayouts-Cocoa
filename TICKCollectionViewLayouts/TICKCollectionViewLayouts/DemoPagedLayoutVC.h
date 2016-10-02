@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  DemoPagedLayoutVC.h
 //  TICKCollectionViewLayouts
 //
-//  Created by Claris on 2016.10.01.
+//  Created by Claris on 2016.10.02.
 //  Copyright © 2016 Claris. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DemoPagedLayoutVC : UIViewController
 
 @end
-
