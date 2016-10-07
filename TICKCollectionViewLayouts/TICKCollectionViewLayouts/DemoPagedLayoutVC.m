@@ -124,7 +124,7 @@
     for (NSInteger i=0; i<_itemNumber; i++) {
         [_itemList addObject:[NSString stringWithFormat:@"%ld", (long)i]];
     }
-    
+    [_demoCollectionView reloadData];
 }
 
 #pragma mark - Setter & Getter
