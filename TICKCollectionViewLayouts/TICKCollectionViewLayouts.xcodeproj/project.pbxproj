@@ -131,6 +131,7 @@
 				TargetAttributes = {
 					4F0479F91DA00EDA00266CB0 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GG8UV44DFP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -296,6 +297,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GG8UV44DFP;
 				INFOPLIST_FILE = TICKCollectionViewLayouts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tickCoder.TICKCollectionViewLayouts;
@@ -307,6 +310,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GG8UV44DFP;
 				INFOPLIST_FILE = TICKCollectionViewLayouts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tickCoder.TICKCollectionViewLayouts;
